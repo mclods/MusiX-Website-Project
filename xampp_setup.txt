@@ -1,0 +1,15 @@
+File Location: C:\xampp\apache\conf\httpd.conf
+
+Change: 
+
+	DocumentRoot "C:/xampp/htdocs"
+	<Directory "C:/xampp/htdocs">
+
+Change To:	
+	
+	DocumentRoot "Your_Location" 
+	<Directory "Your_Location">
+
+Example:
+	DocumentRoot "D:\Web Development\MusiX" 
+	<Directory "D:\Web Development\MusiX">
